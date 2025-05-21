@@ -25,15 +25,29 @@ body {
   font-size: 4rem;
   margin-bottom: 2.5rem;
   line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .gradient-text {
-  display: block;
-  background: linear-gradient(to bottom, #d87eff, #8f39c2);
+  display: inline-block;
+  background: linear-gradient(
+    180deg,
+    #ff75f1 0%,
+    #d56eff 30%,
+    #8f39c2 70%,
+    #5b1e85 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+
+  /* Extra pop */
+  filter: brightness(1.1) contrast(1.2);
+
+  /* Optional glow effect */
+  text-shadow: 0 0 10px rgba(255, 0, 255, 0.2);
 }
 
 .grid {
