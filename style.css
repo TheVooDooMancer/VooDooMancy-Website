@@ -72,6 +72,16 @@ body {
 }
 
 .icon {
-  font-size: 2rem;
+  stroke: #c56eff;
+  width: 2.5rem;
+  height: 2.5rem;
   margin-bottom: 0.5rem;
+  transition: stroke 0.3s, transform 0.2s;
+}
+
+.card:hover .icon {
+  stroke: #ff85f2;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 4px rgba(255, 105, 255, 0.3));
+}
 }
