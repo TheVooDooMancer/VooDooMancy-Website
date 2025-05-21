@@ -32,10 +32,11 @@ body {
 .gradient-text {
   display: inline-block;
   background: linear-gradient(
-    180deg,
-    #ff75f1 0%,
+    to bottom,
+    #ff85f2 0%,
     #d56eff 30%,
-    #8f39c2 70%,
+    #b652e6 50%,
+    #8a30c2 75%,
     #5b1e85 100%
   );
   -webkit-background-clip: text;
@@ -43,11 +44,9 @@ body {
   background-clip: text;
   text-fill-color: transparent;
 
-  /* Extra pop */
-  filter: brightness(1.1) contrast(1.2);
+  filter: brightness(1.15) contrast(1.3);
 
-  /* Optional glow effect */
-  text-shadow: 0 0 10px rgba(255, 0, 255, 0.2);
+  text-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
 }
 
 .grid {
