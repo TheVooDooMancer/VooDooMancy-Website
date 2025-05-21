@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 body {
   background: #100015;
   color: #e0b3ff;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Anton', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,16 +22,18 @@ body {
 }
 
 .title {
-  font-size: 3rem;
-  color: #bb60ff;
-  margin-bottom: 2rem;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
   line-height: 1.1;
 }
 
-.title span {
+.gradient-text {
   display: block;
-  font-size: 3.5rem;
-  font-weight: bold;
+  background: linear-gradient(to bottom, #d87eff, #8f39c2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .grid {
